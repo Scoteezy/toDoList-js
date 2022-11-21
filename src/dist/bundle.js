@@ -52,6 +52,7 @@ function addTask(listName,addTaskBtn,listItemsName,removeBtn,itemText){
                 value.value="";
             }, 1500);
         }
+        value.value='';
     });
     //delete items
     let intervalId = setInterval(()=>{
